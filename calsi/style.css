@@ -1,0 +1,121 @@
+/* html.body{
+    height: 100%;
+    width: 100%;
+}
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.row{
+    margin:8px 0;
+    /* width:82vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; */
+
+/* }
+.row input{
+    width: 291px;
+    font-size: 20px;
+    margin:0;
+    padding:10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+} */ 
+
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button {
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    background-color: #b7b5dd;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 16px; /* Adjust font size for better readability */
+}
+
+.row {
+    margin: 8px 0;
+    display: flex;
+    justify-content: center; /* Center align the buttons */
+}
+
+.input {
+    width: 70%;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    background-color: #e4e41ef7;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+
+.text-center{
+    text-align: center;
+    color: rgb(226, 76, 43);
+}
+.mx-auto{
+    margin: auto;
+}
+.m-w-20{
+    max-width: 30vw;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .button {
+        width: 60px;
+        padding: 18px;
+        font-size: 14px; /* Smaller font size for smaller screens */
+    }
+
+    .input {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .button {
+        width: 50px;
+        padding: 15px;
+        font-size: 12px; /* Smaller font size for smaller screens */
+        margin: 0 2px; /* Reduce margin for smaller screens */
+    }
+
+    .input {
+        font-size: 16px;
+    }
+
+    .row {
+        flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+        justify-content: space-between; /* Adjust alignment for smaller screens */
+    }
+
+    .row input {
+        width: calc(100% - 4px); /* Full width for input with margin compensation */
+    }
+}
+
+
